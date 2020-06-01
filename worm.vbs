@@ -22,7 +22,7 @@ End Sub
 Sub WritePayload()
     Dim PayLoadFile As Integer
     Dim FilePath as String
-        FilePaty = "C:\temp\payload.vbs"
+        FilePath = "C:\temp\payload.vbs"
         PayloadFile = FreeFile
         Open FilePath For Output as TextFile
         Print #PayLoadFile, "VBS Script Line 1"
