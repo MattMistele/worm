@@ -20,14 +20,14 @@ End Sub
 
 'VBA 
 Sub WritePayload()
-    Dim PayLoadFile As Integer
+    Dim PayLoadFile As Integer 'variables declared using dim are available to the procedures within the script
     Dim FilePath as String
         FilePath = "C:\temp\payload.vbs"
         PayloadFile = FreeFile
         Open FilePath For Output as TextFile
         Print #PayLoadFile, "VBS Script Line 1"
     Close PayloadFile
-    Shell "wscripte c:\temp\pauload.vbs"
+    Shell "wscript c:\temp\payload.vbs"
 End Sub
 
 'vbs script 
