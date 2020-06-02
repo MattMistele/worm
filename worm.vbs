@@ -15,7 +15,7 @@ end with
 
 
 Sub Auto_Open
-//main code 
+'main code 
 End Sub
 
 'VBA 
